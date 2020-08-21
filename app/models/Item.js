@@ -5,7 +5,7 @@ export default class Item {
         this.desc = p_desc;
         this.content = p_content;
         this.image = p_image 
-        this.rating = p_rating;
+        this.rating = p_rating +" étoiles";
         this.status = p_status ? "En activité" : "Fin d'activité"
 
         if(p_category == 1){
